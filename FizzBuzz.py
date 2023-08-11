@@ -10,5 +10,6 @@ def fizzBuzz(n):
             print(i)
 
 if __name__ == '__main__':
-    n = int(input().strip())
+    n = int(input("Enter the value of n: ").strip())
     fizzBuzz(n)
+
